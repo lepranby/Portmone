@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26971EC129C9C40D00E23598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26971EC029C9C40D00E23598 /* AppDelegate.swift */; };
+		26971EC329C9C40D00E23598 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26971EC229C9C40D00E23598 /* SceneDelegate.swift */; };
+		26971EC529C9C40D00E23598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26971EC429C9C40D00E23598 /* ViewController.swift */; };
+		26971EC829C9C40D00E23598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26971EC629C9C40D00E23598 /* Main.storyboard */; };
+		26971ECB29C9C40D00E23598 /* Portmone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26971EC929C9C40D00E23598 /* Portmone.xcdatamodeld */; };
+		26971ECD29C9C40E00E23598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26971ECC29C9C40E00E23598 /* Assets.xcassets */; };
+		26971ED029C9C40E00E23598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26971ECE29C9C40E00E23598 /* LaunchScreen.storyboard */; };
+		26971EDB29C9C40F00E23598 /* PortmoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26971EDA29C9C40F00E23598 /* PortmoneTests.swift */; };
+		26971EE529C9C40F00E23598 /* PortmoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26971EE429C9C40F00E23598 /* PortmoneUITests.swift */; };
+		26971EE729C9C40F00E23598 /* PortmoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26971EE629C9C40F00E23598 /* PortmoneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26971ED729C9C40F00E23598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26971EB529C9C40D00E23598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26971EBC29C9C40D00E23598;
+			remoteInfo = Portmone;
+		};
+		26971EE129C9C40F00E23598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26971EB529C9C40D00E23598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26971EBC29C9C40D00E23598;
+			remoteInfo = Portmone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26971EBD29C9C40D00E23598 /* Portmone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portmone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26971EC029C9C40D00E23598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26971EC229C9C40D00E23598 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26971EC429C9C40D00E23598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26971EC729C9C40D00E23598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26971ECA29C9C40D00E23598 /* Portmone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Portmone.xcdatamodel; sourceTree = "<group>"; };
+		26971ECC29C9C40E00E23598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26971ECF29C9C40E00E23598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26971ED129C9C40E00E23598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26971ED629C9C40F00E23598 /* PortmoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortmoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26971EDA29C9C40F00E23598 /* PortmoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortmoneTests.swift; sourceTree = "<group>"; };
+		26971EE029C9C40F00E23598 /* PortmoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortmoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26971EE429C9C40F00E23598 /* PortmoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortmoneUITests.swift; sourceTree = "<group>"; };
+		26971EE629C9C40F00E23598 /* PortmoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortmoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26971EBA29C9C40D00E23598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26971ED329C9C40F00E23598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26971EDD29C9C40F00E23598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26971EB429C9C40D00E23598 = {
+			isa = PBXGroup;
+			children = (
+				26971EBF29C9C40D00E23598 /* Portmone */,
+				26971ED929C9C40F00E23598 /* PortmoneTests */,
+				26971EE329C9C40F00E23598 /* PortmoneUITests */,
+				26971EBE29C9C40D00E23598 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26971EBE29C9C40D00E23598 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26971EBD29C9C40D00E23598 /* Portmone.app */,
+				26971ED629C9C40F00E23598 /* PortmoneTests.xctest */,
+				26971EE029C9C40F00E23598 /* PortmoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26971EBF29C9C40D00E23598 /* Portmone */ = {
+			isa = PBXGroup;
+			children = (
+				26971EC029C9C40D00E23598 /* AppDelegate.swift */,
+				26971EC229C9C40D00E23598 /* SceneDelegate.swift */,
+				26971EC429C9C40D00E23598 /* ViewController.swift */,
+				26971EC629C9C40D00E23598 /* Main.storyboard */,
+				26971ECC29C9C40E00E23598 /* Assets.xcassets */,
+				26971ECE29C9C40E00E23598 /* LaunchScreen.storyboard */,
+				26971ED129C9C40E00E23598 /* Info.plist */,
+				26971EC929C9C40D00E23598 /* Portmone.xcdatamodeld */,
+			);
+			path = Portmone;
+			sourceTree = "<group>";
+		};
+		26971ED929C9C40F00E23598 /* PortmoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				26971EDA29C9C40F00E23598 /* PortmoneTests.swift */,
+			);
+			path = PortmoneTests;
+			sourceTree = "<group>";
+		};
+		26971EE329C9C40F00E23598 /* PortmoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26971EE429C9C40F00E23598 /* PortmoneUITests.swift */,
+				26971EE629C9C40F00E23598 /* PortmoneUITestsLaunchTests.swift */,
+			);
+			path = PortmoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26971EBC29C9C40D00E23598 /* Portmone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26971EEA29C9C40F00E23598 /* Build configuration list for PBXNativeTarget "Portmone" */;
+			buildPhases = (
+				26971EB929C9C40D00E23598 /* Sources */,
+				26971EBA29C9C40D00E23598 /* Frameworks */,
+				26971EBB29C9C40D00E23598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Portmone;
+			productName = Portmone;
+			productReference = 26971EBD29C9C40D00E23598 /* Portmone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26971ED529C9C40F00E23598 /* PortmoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26971EED29C9C40F00E23598 /* Build configuration list for PBXNativeTarget "PortmoneTests" */;
+			buildPhases = (
+				26971ED229C9C40F00E23598 /* Sources */,
+				26971ED329C9C40F00E23598 /* Frameworks */,
+				26971ED429C9C40F00E23598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26971ED829C9C40F00E23598 /* PBXTargetDependency */,
+			);
+			name = PortmoneTests;
+			productName = PortmoneTests;
+			productReference = 26971ED629C9C40F00E23598 /* PortmoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26971EDF29C9C40F00E23598 /* PortmoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26971EF029C9C40F00E23598 /* Build configuration list for PBXNativeTarget "PortmoneUITests" */;
+			buildPhases = (
+				26971EDC29C9C40F00E23598 /* Sources */,
+				26971EDD29C9C40F00E23598 /* Frameworks */,
+				26971EDE29C9C40F00E23598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26971EE229C9C40F00E23598 /* PBXTargetDependency */,
+			);
+			name = PortmoneUITests;
+			productName = PortmoneUITests;
+			productReference = 26971EE029C9C40F00E23598 /* PortmoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26971EB529C9C40D00E23598 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					26971EBC29C9C40D00E23598 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					26971ED529C9C40F00E23598 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 26971EBC29C9C40D00E23598;
+					};
+					26971EDF29C9C40F00E23598 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 26971EBC29C9C40D00E23598;
+					};
+				};
+			};
+			buildConfigurationList = 26971EB829C9C40D00E23598 /* Build configuration list for PBXProject "Portmone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26971EB429C9C40D00E23598;
+			productRefGroup = 26971EBE29C9C40D00E23598 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26971EBC29C9C40D00E23598 /* Portmone */,
+				26971ED529C9C40F00E23598 /* PortmoneTests */,
+				26971EDF29C9C40F00E23598 /* PortmoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26971EBB29C9C40D00E23598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26971ED029C9C40E00E23598 /* LaunchScreen.storyboard in Resources */,
+				26971ECD29C9C40E00E23598 /* Assets.xcassets in Resources */,
+				26971EC829C9C40D00E23598 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26971ED429C9C40F00E23598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26971EDE29C9C40F00E23598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26971EB929C9C40D00E23598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26971EC529C9C40D00E23598 /* ViewController.swift in Sources */,
+				26971ECB29C9C40D00E23598 /* Portmone.xcdatamodeld in Sources */,
+				26971EC129C9C40D00E23598 /* AppDelegate.swift in Sources */,
+				26971EC329C9C40D00E23598 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26971ED229C9C40F00E23598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26971EDB29C9C40F00E23598 /* PortmoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26971EDC29C9C40F00E23598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26971EE729C9C40F00E23598 /* PortmoneUITestsLaunchTests.swift in Sources */,
+				26971EE529C9C40F00E23598 /* PortmoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26971ED829C9C40F00E23598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26971EBC29C9C40D00E23598 /* Portmone */;
+			targetProxy = 26971ED729C9C40F00E23598 /* PBXContainerItemProxy */;
+		};
+		26971EE229C9C40F00E23598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26971EBC29C9C40D00E23598 /* Portmone */;
+			targetProxy = 26971EE129C9C40F00E23598 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26971EC629C9C40D00E23598 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26971EC729C9C40D00E23598 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26971ECE29C9C40E00E23598 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26971ECF29C9C40E00E23598 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26971EE829C9C40F00E23598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26971EE929C9C40F00E23598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26971EEB29C9C40F00E23598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTRFQL94MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Portmone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AleksejSchapran.Portmone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26971EEC29C9C40F00E23598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTRFQL94MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Portmone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AleksejSchapran.Portmone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26971EEE29C9C40F00E23598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTRFQL94MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AleksejSchapran.PortmoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Portmone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Portmone";
+			};
+			name = Debug;
+		};
+		26971EEF29C9C40F00E23598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTRFQL94MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AleksejSchapran.PortmoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Portmone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Portmone";
+			};
+			name = Release;
+		};
+		26971EF129C9C40F00E23598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTRFQL94MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AleksejSchapran.PortmoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Portmone;
+			};
+			name = Debug;
+		};
+		26971EF229C9C40F00E23598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTRFQL94MM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AleksejSchapran.PortmoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Portmone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26971EB829C9C40D00E23598 /* Build configuration list for PBXProject "Portmone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26971EE829C9C40F00E23598 /* Debug */,
+				26971EE929C9C40F00E23598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26971EEA29C9C40F00E23598 /* Build configuration list for PBXNativeTarget "Portmone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26971EEB29C9C40F00E23598 /* Debug */,
+				26971EEC29C9C40F00E23598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26971EED29C9C40F00E23598 /* Build configuration list for PBXNativeTarget "PortmoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26971EEE29C9C40F00E23598 /* Debug */,
+				26971EEF29C9C40F00E23598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26971EF029C9C40F00E23598 /* Build configuration list for PBXNativeTarget "PortmoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26971EF129C9C40F00E23598 /* Debug */,
+				26971EF229C9C40F00E23598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		26971EC929C9C40D00E23598 /* Portmone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26971ECA29C9C40D00E23598 /* Portmone.xcdatamodel */,
+			);
+			currentVersion = 26971ECA29C9C40D00E23598 /* Portmone.xcdatamodel */;
+			path = Portmone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26971EB529C9C40D00E23598 /* Project object */;
+}
